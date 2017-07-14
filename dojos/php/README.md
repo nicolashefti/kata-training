@@ -1,7 +1,13 @@
 # PHP boilerplate for Kata training
 
+## Install
+
+```
+composer install
+```
+
 ## Run
 
 ```
-phpunit --bootstrap src/source.php tests/sourceTest
+./vendor/bin/phpunit --bootstrap src/source.php tests/sourceTest
 ```

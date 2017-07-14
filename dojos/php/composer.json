@@ -1,10 +1,13 @@
 {
-    "name": "kata-training/php",
-    "description": "Boilerplate to start Kata training",
+    "name": "nicolashefti/php-dojo",
+    "description": "PHP Dojo to practice coding kata",
     "authors": [
         {
             "name": "nicolashefti",
             "email": "nicolas@hefti.fr"
         }
-    ]
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.7"
+    }
 }
