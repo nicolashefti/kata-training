@@ -1,4 +1,4 @@
-# PHP boilerplate for Kata training
+# PHP Dojo
 
 ## Install
 
