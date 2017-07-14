@@ -7,6 +7,8 @@ Learn by doing again, again and again...
 
 * PHP
 
+## Kata
+
 ### The bowling game
 
 Build a Class to calculate the score of a bowling game.
