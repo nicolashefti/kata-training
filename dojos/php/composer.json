@@ -1,0 +1,10 @@
+{
+    "name": "kata-training/php",
+    "description": "Boilerplate to start Kata training",
+    "authors": [
+        {
+            "name": "nicolashefti",
+            "email": "nicolas@hefti.fr"
+        }
+    ]
+}
