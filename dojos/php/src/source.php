@@ -1,35 +1,37 @@
-<?php
+# Dumpbox
 
-final class Email
-{
-    private $email;
+## Intro
 
-    private function __construct($email)
-    {
-        $this->ensureIsValidEmail($email);
+Dumpbox is simple uploading platform allowing people to share easily pictures made on their mobile.
 
-        $this->email = $email;
-    }
+## Guidelines
 
-    public static function fromString($email)
-    {
-        return new self($email);
-    }
+- Blind PHP backend providing all the service through a JSON API
+- Standalone frontend (no framework required) using Bootstrap
+- Mobile friendly
+- Make sure the application works out-of-the box once you're done
+- Use Docker to facilitate the setup of the application
+- Add a short description on how to run your program in the *Setup* section bellow
+- Readable, extendable and clean code
+- Basic unit testing (at least for Backend)
 
-    public function __toString()
-    {
-        return $this->email;
-    }
+## Setup
 
-    private function ensureIsValidEmail($email)
-    {
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            throw new InvalidArgumentException(
-                sprintf(
-                    '"%s" is not a valid email address',
-                    $email
-                )
-            );
-        }
-    }
-}
+...
+
+- Mobile friendly
+- Make sure the application works out-of-the box once you're done
+- Use Docker to facilitate the setup of the application
+- Add a short description on how to run your program in the *Setup* section bellow
+- Readable, extendable and clean code
+- Basic unit testing (at least for Backend)
+
+## Setup
+- Mobile friendly
+- Make sure the application works out-of-the box once you're done
+- Use Docker to facilitate the setup of the application
+- Add a short description on how to run your program in the *Setup* section bellow
+- Readable, extendable and clean code
+- Basic unit testing (at least for Backend)
+
+## Setup
