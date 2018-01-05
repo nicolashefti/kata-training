@@ -1,13 +1,7 @@
 # PHP Dojo
 
-## Install
-
-```
-composer install
-```
-
 ## Run
 
 ```
-./vendor/bin/phpunit --bootstrap src/source.php tests/sourceTest
+docker run -v $(pwd):/app --rm phpunit/phpunit --bootstrap src/source.php tests/sourceTest
 ```

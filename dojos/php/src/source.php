@@ -1,3 +1,5 @@
 <?php
 
-// Nothing to declare
+class Game {
+
+}
